@@ -13,15 +13,15 @@ Steps and Instructions
 Data Files
 Raw data files can be obtained from Kaggle : https://www.kaggle.com/c/instacart-market-basket-analysis/data
 
-Feature Engineering
+## Feature Engineering
 Our recommender system captures time-based features, unlike traditional systems. Four kinds of features are considered: user-related, item-related, user × item-related, and time-related features. Feature engineering code is available in Data Preparation.ipynb.
 
-Architecture
+## Architecture
 
 Azure Spark ML Implementation
 Spark ML - Azure.ipynb contains the PySpark code to read the feature-engineered files, process them into Spark DataFrames, and run Spark ML's Random Forest algorithm to predict probabilities for the test dataset.
 
-Random Forest Algorithm
+## Random Forest Algorithm
 Random Forest is an ensemble of decision trees. The ensemble classifier aggregates individual tree predictions to generate a final prediction.
 
 Advantage of Using Random Forest Through Spark ML on Azure
