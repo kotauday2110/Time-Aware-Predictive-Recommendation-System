@@ -11,7 +11,7 @@ Recommendation Differences
 
 Steps and Instructions
 Data Files
-Raw data files can be obtained from Kaggle : https://www.kaggle.com/c/instacart-market-basket-analysis/data
+Raw data files can be obtained from Kaggle : [https://www.kaggle.com/c/instacart-market-basket-analysis/data](https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset)
 
 ## Feature Engineering
 Our recommender system captures time-based features, unlike traditional systems. Four kinds of features are considered: user-related, item-related, user × item-related, and time-related features. Feature engineering code is available in Data Preparation.ipynb.
